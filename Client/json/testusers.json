@@ -1,0 +1,133 @@
+[
+    {
+        "age" : 24,
+        "country" : "Serbia",
+        "region" : "Nisavski",
+        "city" : "Aleksinac",
+        "affinities" : [
+            {
+                "affinity" : "chinese"
+            },
+            {
+                "affinity" : "japanese"
+            }
+        ],
+        "likes": [{
+            "id": 1,
+            "rating": 4 
+        },
+        {
+            "id": 2,
+            "rating": 3 
+        },
+        {
+            "id": 3,
+            "rating": 5 
+        },
+        {
+            "id": 4,
+            "rating": 4 
+        }],
+        "dislikes": []
+    },
+    {
+        "age" : 20,
+        "country" : "Serbia",
+        "region" : "Nisavski",
+        "city" : "Aleksinac",
+        "affinities" : [
+            {
+                "affinity" : "chinese"
+            },
+            {
+                "affinity" : "italian"
+            }
+        ],
+        "likes": [{
+            "id": 1,
+            "rating": 5 
+        },
+        {
+            "id": 2,
+            "rating": 3 
+        }],
+        "dislikes": []
+    },
+    {
+        "age" : 30,
+        "country" : "Serbia",
+        "region" : "Nisavski",
+        "city" : "Aleksinac",
+        "affinities" : [
+            {
+                "affinity" : "italian"
+            }
+        ],
+        "likes": [{
+            "id": 1,
+            "rating": 4 
+        },
+        {
+            "id": 2,
+            "rating": 3 
+        },
+        {
+            "id": 3,
+            "rating": 3 
+        },
+        {
+            "id": 4,
+            "rating": 4 
+        }],
+        "dislikes": []
+    },
+    {
+        "age" : 20,
+        "country" : "Serbia",
+        "region" : "Nisavski",
+        "city" : "Nis",
+        "affinities" : [
+            {
+                "affinity" : "thai"
+            },
+            {
+                "affinity" : "serbian"
+            }
+        ],
+        "likes": [],
+        "dislikes": [{
+            "id": 1,
+            "rating": 2 
+        },
+        {
+            "id": 2,
+            "rating": 1
+        }]
+    },
+    {
+        "age" : 20,
+        "country" : "Serbia",
+        "region" : "Nisavski",
+        "city" : "Aleksinac",
+        "affinities" : [
+            {
+                "affinity" : "thai"
+            },
+            {
+                "affinity" : "japanese"
+            }
+        ],
+        "likes": [{
+            "id": 1,
+            "rating": 4 
+        },
+        {
+            "id" : 5,
+            "rating" : 5
+        }],
+        "dislikes": [{
+            "id": 2,
+            "rating": 2 
+        }]
+    }
+]

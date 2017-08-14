@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 1,
+        "rating" : 3.8,
+        "numOfRatings" : 4
+    },
+    {
+        "id" : 2,
+        "rating" : 2.4,
+        "numOfRatings" : 4
+    },
+    {
+        "id" : 3,
+        "rating" : 4,
+        "numOfRatings" : 2
+    },
+    {
+        "id" : 4,
+        "rating" : 4,
+        "numOfRatings" : 2
+    },
+    {
+        "id" : 5,
+        "rating" : 5,
+        "numOfRatings" : 1
+    }
+]
