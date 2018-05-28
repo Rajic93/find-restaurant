@@ -1,3 +1,5 @@
+var path = require('path');
+
 module.exports = {
   entry: './main.js',
   output: {
@@ -16,6 +18,11 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
+      },
+      {
+        test: /\.scss$/,
+        loaders: ["style-loader", "css-loader", "sass-loader"],
+        include: path.join(__dirname, 'components')
       }
     ]
   }

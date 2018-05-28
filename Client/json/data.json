@@ -1,0 +1,81 @@
+[{
+    "id": "5110e0dee4b0d386ca4de64d",
+    "name": "Night & Day",
+    "contact": "0612255552",
+    "location": {
+        "formattedAddress": "Obrenovićeva 18000 Niš",
+        "distance": "434m",
+        "lat": 43.317560646370474,
+        "lng": 21.894636295218067
+    },
+    "verified": false,
+    "hours": "",
+    "url": "http://www.nightandday.rs",
+    "menu": "",
+    "price": "",
+    "rating": 0,
+    "description": "",
+    "tips": "",
+    "photos": "",
+    "categories": [{"label":"Pizza Place"}]
+},{
+    "id": "54b543b0498e32bd7fa8c5b3",
+    "name": "Pasta Bar 2x2",
+    "contact": "0692242244",
+    "location": {
+        "formattedAddress": "Sinđelićev trg 25 18000 Niš",
+        "distance": "422m",
+        "lat": 43.31892522423855,
+        "lng": 21.899499881714224
+    },
+    "verified": false,
+    "hours": "",
+    "url": "",
+    "menu": "",
+    "price": "",
+    "rating": 0,
+    "description": "",
+    "tips": "",
+    "photos": "",
+    "categories": [{"label": "Italian Restaurant"}]
+},{
+    "id": "5508636b498edf5e047a9ba9",
+    "name": "Caribic Pizza",
+    "contact": "0612345678",
+    "location": {
+        "formattedAddress": "Vožda Karađorđa (Nade Tomić) 18000 Niš",
+        "distance": "113m",
+        "lat": 43.32088197220465,
+        "lng": 21.896762645282514
+    },
+    "verified": false,
+    "hours": "",
+    "url": "http://www.caribic.rs",
+    "menu": "",
+    "price": "",
+    "rating": 0,
+    "description": "",
+    "tips": "",
+    "photos": "",
+    "categories": [{"label": "Pizza Place"}]
+},{
+    "id": "4c1a1a5323a29c74f4191953",
+    "name": "McDonald's",
+    "contact": "018520400",
+    "location": {
+        "formattedAddress": "Generala Milojka Lešjanina 2 18000 Niš",
+        "distance": "51m",
+        "lat": 43.32094139978722,
+        "lng": 21.89553006518097
+    },
+    "verified": false,
+    "hours": "",
+    "url": "http://mcdonalds.rs/",
+    "menu": "",
+    "price": "",
+    "rating": 0,
+    "description": "",
+    "tips": "",
+    "photos": "",
+    "categories": [{"label": "Fast Food Restaurant"}]
+}]

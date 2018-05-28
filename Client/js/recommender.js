@@ -195,8 +195,6 @@ var meanRating = function (userRatings) {
     }, this);
     return sum;
 }
-
-//*********//
 var standardVariance = function (userRatings) {
     var sum = 0;
     var cardinality = 0;
@@ -214,6 +212,7 @@ var standardVariance = function (userRatings) {
     return math.sqrt(sum);
 }
 
+//*********//
 var getTheMostSimilarUsers = function (users) {
     for (var i = 0; i < similarities[0].length; i++) {
         var coef = similarities[0][i];
@@ -322,12 +321,15 @@ var decreasingSort = function (x, y) {
 */
 
 var recommend = function (users, numOfRecommendations) {
+    //preparation
     var places = extractPlaces(users);
     initializeRatingsMatrix(users, places.length);
     console.log(ratingsMatrix)
     calculateAvg(users, places);
+    //similarity coefficients calculation
     calculateSimilarities(users);
     //var usersToIterate = Array.from(users);
+    //recommendation
     var usersToIterate = getTheMostSimilarUsers(users);
     var recommendations = [];
     packPlaces(recommendations, usersToIterate, numOfRecommendations);

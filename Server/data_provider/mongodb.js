@@ -48,7 +48,7 @@ var createUser = function (user, callback) {
     userDataModel.find((err, doc) => {
         if(err) //server error
             callback(OPERATION_RESULT.createResponseObject(STATUS_CODES.UNSUCCESSFULL_REGISTER_OR_LOGIN, err));
-        else if(doc.length != 0) //existing user
+        else if(doc.length == 0) //existing user
             callback(OPERATION_RESULT.createResponseObject(STATUS_CODES.UNSUCCESSFULL_REGISTER_OR_LOGIN, "User already exists."));
         else {
             var data = new userDataModel(user);
