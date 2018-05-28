@@ -1,11 +1,11 @@
 
-var PAGES = {
+const PAGES = {
     LOGIN: "login",
     REGISTER: "register",
     HOMEPAGE: "homepage"
 }
 
-var COMPONENTS = {
+const COMPONENTS = {
     CHAT: "chat",
     CONVERSATION: "conversation",
     CREATEEVENT: "createEvent",

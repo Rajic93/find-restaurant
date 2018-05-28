@@ -1,7 +1,7 @@
 var createResponseObject = function(status, data) {
     return {
         statusCode : status,
-        repsonseData : data
+        responseData : data
     }
 }
 module.exports.createResponseObject = createResponseObject;

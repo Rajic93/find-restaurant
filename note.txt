@@ -1,0 +1,39 @@
+"1. Kreiramo fajl server.js jer ce to biti ulazni fajl u nas server"
+"".
+"ovaj server ce slusati na odredjenom portu i izvrsavati odredjene metode na osnovu tipa requesta (GET/POST)".
+"Kreiramo petlju koja ce da se vrti sve dok ne kazemo da stane".
+"2. Izvrsavanje komande 'node server.js' kako bi se pokrenuo server".
+"na ovaj nacin kreiran je server koji slusa na portu 8000 i obradjuje dolazece requeste".
+"MODULI U NODE.JS".
+"".
+"Core moduli se ucitavaju sa require('ime_modula')".
+"Custom moduli se ucitavaju sa require('path');".
+"Jedan .js fajla je jedan modul. Prilikom ucitavanja on se dodeljuje promenljivoj i dalje se koristi promenljiva.".
+"Da bi Koristili funkcije iz modula moraju da se eksportuju koriscenjem module.export objekta".
+"".
+"pr. module.export = { props } ili svaki prop posebno sa module.export.prop = var/func".
+"Ovo je sporiji nacin i ako ima dosta funkcija sav sadrzaj se pose u okviru module.export = {} objekta".
+"pr. module.export = {\n\tfuncName: function() {\n\t\tcode\n\t\n}".
+"".
+"Anonimne funkcije".
+"".
+"Kreiranje funkcije umesto parametara funkcije".
+"pr. funcName(function(paramas){\n\tcode\n});".
+"ili \nfuncName((params) => {\n\tcode\n});".
+"".
+"Renderovanje HTML kao response".
+"".
+"Da bi vratili fajl kao response moramo prvo da ga fetchujemo iz fajl sistema sa fs modulom a zatim i posaljemo".
+"FS modul ima funkciju fs.readFile(path, option, callback);".
+"callback se izvrsava kad je zavrseno citanje i ima dva parametara: error i data.".
+"Na ovaj nacin renderovace html kao text. Da bi renderovao mora u headeru Content da se promeni u text/html".
+"".
+"Rutiranje".
+"".
+"".
+"Installing express".
+"npm install -g express-generator".
+"generating express project: express name_of_folder".
+"".
+EXPLAINING EXPRESS WWWW.
+AND APP.
